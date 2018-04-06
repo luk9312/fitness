@@ -60,7 +60,7 @@ export class ListItemComponent {
   }
 
   removeItem() {
-
+    this.remove.emit(this.item);
   }
 
   getRoute(item: any) {
