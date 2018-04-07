@@ -21,14 +21,9 @@ export const ROUTE: Routes = [
   }
 ];
 
-
+// firebaseConfig token
 export const  firebaseConfig: FirebaseAppConfig = {
-  apiKey: "AIzaSyAyo2VfvkKWJsKJIv7tbk84FnUxcganobU",
-  authDomain: "fitness-bd62c.firebaseapp.com",
-  databaseURL: "https://fitness-bd62c.firebaseio.com",
-  projectId: "fitness-bd62c",
-  storageBucket: "fitness-bd62c.appspot.com",
-  messagingSenderId: "739262174582"
+  
 };
 
 @NgModule({
